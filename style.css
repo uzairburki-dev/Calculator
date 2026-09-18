@@ -54,6 +54,14 @@ body {
 
 }
 
+@media (max-width: 600px) {
+    .keypad {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}
+
 .btn {
     font-size: 1.25rem;
     font-weight: 500;
