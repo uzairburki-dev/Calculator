@@ -60,6 +60,14 @@ body {
         grid-template-columns: repeat(4, 1fr);
         gap: 6px;
     }
+
+    .btn {
+        border-radius: 8px;
+    }
+
+    #author {
+        font-size: 0.5rem;
+    }
 }
 
 .btn {
