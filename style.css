@@ -54,22 +54,6 @@ body {
 
 }
 
-@media (max-width: 600px) {
-    .keypad {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 6px;
-    }
-
-    .btn {
-        border-radius: 8px;
-    }
-
-    #author {
-        font-size: 0.5rem;
-    }
-}
-
 .btn {
     font-size: 1.25rem;
     font-weight: 500;
@@ -123,4 +107,20 @@ body {
 #author {
     color: rgb(243, 236, 236);
     margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .keypad {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
+    }
+
+    .btn {
+        border-radius: 8px;
+    }
+
+    #author {
+        font-size: 0.5rem;
+    }
 }
