@@ -119,7 +119,7 @@ function logic(value, type) {
 
         //percentage
         if (value === 'percent') {
-            displayOperation.textContent = Number(displayOperation.textContent) / 100;)
+            displayOperation.textContent = Number(displayOperation.textContent) / 100;
             if (!newNum) {
                 previousNum = String(Number(previousNum) / 100);
             } else {
