@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+    color: #1a1a1a;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.calbody {
+    background-color: #13293b;
+    padding: 20px;
+    border-radius: 24px;
+    width: 100vw;
+    max-width: 400px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 150px;
+    margin-bottom: 24px;
+    text-align: right;
+    word-break: break-all;
+    color: #f8fafc;
+}
+
+.calculated {
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+    color: #94a3bb;
+}
+
+.calculation {
+    line-height: 1.25rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+}
+
+.btn {
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 16px;
+}
+
+.btn-action {
+    background-color: #1e3a8a;
+    color: #93c5fd;
+}
+
+.btn-action:hover {
+    background-color: #0e3ab4;
+    color: white;
+}
+
+.btn-number {
+    background-color: #334155;
+    color: #f8fafc;
+}
+
+.btn-number:hover {
+    background-color: #435163;
+    color: white;
+}
+
+.btn-operator {
+    background-color: #3f1d24;
+    color: #fb7185;
+}
+
+.btn-operator:hover {
+    background-color: #683c45;
+    color: white;
+}
+
+.btn-equals {
+    background-color: #6366f1;
+    color: #fff;
+}
+
+.btn-equals:hover {
+    background-color: #3c3d84;
+    color: white;
+}
